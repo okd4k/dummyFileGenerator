@@ -36,10 +36,13 @@ using std::endl;
 #define MIT_FILE_NAME   "MIT.txt"
 #define RESOURCE_LOCATION   ""
 
+#define VERSION_NUMBER  "20190609R01"
+
 
 
 int main()
 {
+    cout << "dummyFileGenerator " << VERSION_NUMBER << endl;
     string fileAuthor;
     cout << "File Author: ";
     cin >> fileAuthor;
